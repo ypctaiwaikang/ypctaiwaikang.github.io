@@ -1,0 +1,162 @@
+html, body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: #fff;
+    color: #000;
+}
+.navbar{  
+    padding: 1% 0;
+    font-size: 1.25em;
+}
+.nav.navbar-nav.navbar-right li a {
+    color: #fff;
+}
+.navbar-brand{
+    min-height: 55px;
+    padding: 0 30px 20px;
+}
+.nav ul li:hover{
+    background-color: #6cffea;
+}
+#navbar-collapse-main .dropdown.open{
+    background: #fff;
+}
+.dropdown-menu {
+    background-color: #fff; 
+}
+.dropdown-menu>li>a {
+    color: #000 !important;
+}
+.dropdown-menu>li>a:hover {
+    background-color: #6cffea;
+     background-image: none;
+}
+#home{
+    display: table;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+}
+.video-container{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: table;
+    background-size: cover;
+}
+video{
+    position:absolute;
+    width: 100%;
+}
+news{
+    position:relative;
+    z-index: -1;
+    width: 90%;
+}
+.content{
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+}
+.content h1 {
+    font-size: 600%;
+    font-weight:900;
+    font-family:courier;
+}
+.content h2 {
+    font-size: 250%;
+    font-weight:900;
+    font-family:courier;
+}
+.carousel-caption h3{
+    font-size: 250%;
+    font-weight:900;
+    font-family:courier;
+}
+.carousel-caption p{
+    font-size: 150%;
+    font-weight:900;
+    font-family:Black Han Sans;
+}
+.padding{
+    padding: 200px 0;
+}
+.padding video{
+    width: 80%;
+    position: relative;
+}
+#fixed{
+    background: url(../img/video.jpg) no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
+#fixed2{
+   background: url(../img/news.jpg) no-repeat center center fixed;
+    display: table;
+    height: 80%;
+    position: relative;
+    width: 100%;
+    background-size: cover; 
+}
+footer{
+    
+    width: 100%;
+    background-color: #222;
+    border-color: #080808;
+    padding: 3% 3% 3% 3%;
+    color: #fff;
+}
+
+
+.icon{
+    max-width: 200px;
+}
+
+#showcase h1{
+  font-size:50px;
+  margin-bottom:20px;
+}
+
+#showcase img{
+  width:100%;  
+  margin-left:60px;
+  
+}
+
+#showcase .showcase-right{
+  margin-top:90px;
+}
+
+#wkvideo .info-right{
+   margin:20px 0 60px 0;
+}
+
+#sfvideo{
+  margin:20px 0 60px 0;
+}
+
+.carousel-container{
+    padding-top:200px;
+}
+.carousel-intro{
+    width: 100%;    
+}
+.jumbotron{
+    margin: 0px;  
+  }
+  
+  .navbar-nav>li>a {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+  
